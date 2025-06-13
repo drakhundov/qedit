@@ -4,7 +4,7 @@
 #include <fcntl.h>
 
 // Default configuration.
-#define LOGFILENAME "Scheduler.log"
+#define LOGFILENAME "qedit.log"
 #define LOGMODE O_WRONLY | O_APPEND | O_CREAT
 
 typedef enum LOGTYPES { ERROR_LOG, INFO_LOG } Logtype;
